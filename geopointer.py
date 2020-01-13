@@ -182,7 +182,8 @@ def main():
         backwardY(int(steps))
 
     laserOff()
-
+    laserOn()
+    laserOff()
     cleanup()
     GPIO.cleanup()
 
